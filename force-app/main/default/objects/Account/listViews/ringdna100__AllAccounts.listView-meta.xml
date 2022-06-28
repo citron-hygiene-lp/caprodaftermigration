@@ -8,6 +8,7 @@
     <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CPQ2_STS__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CPQ2_STS__c</field>

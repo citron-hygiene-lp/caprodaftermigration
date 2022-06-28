@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>WorkOrder.ResourcePreferences$ServiceResource</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
     <columns>
         <field>WorkOrder$Account</field>
     </columns>
@@ -88,7 +112,7 @@
         <field>WorkOrder$StartDate</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Calgary Hygiene Due  June 25</name>
+    <name>Calgary Hygiene Due  July 16</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -100,8 +124,8 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>WorkOrder$StartDate</dateColumn>
-        <endDate>2022-06-25</endDate>
+        <endDate>2022-07-16</endDate>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2022-06-19</startDate>
+        <startDate>2022-07-10</startDate>
     </timeFrameFilter>
 </Report>

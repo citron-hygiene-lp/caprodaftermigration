@@ -18,10 +18,6 @@
         <recipients>
             <type>accountOwner</type>
         </recipients>
-        <recipients>
-            <recipient>vnarayana@citronhygiene.com</recipient>
-            <type>user</type>
-        </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Notification_Your_recent_customer_installation_has_just_been_completed</template>
     </alerts>

@@ -85,7 +85,7 @@
         <field>WorkOrder$StartDate</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Hygiene Markham  June 25</name>
+    <name>Hygiene Markham  July 16</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -97,8 +97,8 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>WorkOrder$StartDate</dateColumn>
-        <endDate>2022-06-25</endDate>
+        <endDate>2022-07-16</endDate>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2022-06-19</startDate>
+        <startDate>2022-07-10</startDate>
     </timeFrameFilter>
 </Report>

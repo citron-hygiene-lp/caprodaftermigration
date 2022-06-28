@@ -69,11 +69,11 @@
             <value>0</value>
         </criteriaItems>
         <criteriaItems>
-            <column>WorkOrder$Service_Appointment__c.ServiceTerritory.ParentTerritory.Name</column>
+            <column>WorkOrder$ServiceTerritory</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>Ottawa Group</value>
+            <operator>contains</operator>
+            <value>Calgary</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -88,7 +88,7 @@
         <field>WorkOrder$StartDate</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Ottawa Hygiene Due  July 16</name>
+    <name>Calgary Hygiene Due July 16</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -98,8 +98,6 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
-    <sortColumn>WorkOrder$Service_Appointment__c.Name</sortColumn>
-    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>WorkOrder$StartDate</dateColumn>
         <endDate>2022-07-16</endDate>
